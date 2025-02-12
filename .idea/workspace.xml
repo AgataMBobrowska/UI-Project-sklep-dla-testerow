@@ -39,6 +39,7 @@
   "keyToString": {
     "JUnit.SearchTest (1).executor": "Run",
     "JUnit.SearchTest.executor": "Run",
+    "JUnit.SearchTest.should_return_products_by_product_name (1).executor": "Run",
     "JUnit.SearchTest.should_return_products_by_product_name.executor": "Run",
     "JUnit.SearchTest.should_return_products_by_search_name_frame.executor": "Run",
     "JUnit.SearchTest.should_return_products_by_search_name_mug.executor": "Run",
@@ -50,7 +51,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.SearchTest.should_return_products_by_product_name">
+  <component name="RunManager" selected="JUnit.SearchTest.should_return_products_by_product_name (1)">
     <configuration name="SearchTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fast_playwright_demo" />
       <extension name="coverage">
@@ -62,6 +63,22 @@
       <option name="PACKAGE_NAME" value="pl.akademiaqa.tests" />
       <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.tests.SearchTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTest.should_return_products_by_product_name (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fast_playwright_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.akademiaqa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.akademiaqa.tests" />
+      <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.tests.SearchTest" />
+      <option name="METHOD_NAME" value="should_return_products_by_product_name(java.lang.String,int)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,22 +115,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTest.should_return_products_by_search_name_mug" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fast_playwright_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.akademiaqa.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.akademiaqa.tests" />
-      <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.tests.SearchTest" />
-      <option name="METHOD_NAME" value="should_return_products_by_search_name_mug" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SearchTest.should_return_products_by_search_name_tshirt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fast_playwright_demo" />
       <extension name="coverage">
@@ -141,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SearchTest.should_return_products_by_product_name (1)" />
         <item itemvalue="JUnit.SearchTest.should_return_products_by_product_name" />
         <item itemvalue="JUnit.SearchTest.should_return_products_by_search_name_tshirt" />
         <item itemvalue="JUnit.SearchTest.should_return_products_by_search_name_frame" />
         <item itemvalue="JUnit.SearchTest (1)" />
-        <item itemvalue="JUnit.SearchTest.should_return_products_by_search_name_mug" />
       </list>
     </recent_temporary>
   </component>
