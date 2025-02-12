@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="134a8de0-9663-4451-b336-85c6726be7b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/SearchResultPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/searchResultsPage/SearchResultSection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/TopMenuSearchSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/TopMenuSearchSection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/tests/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/tests/SearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/pages/sections/TopMenuSearchSection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/pages/sections/TopMenuSearchSection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/tests/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/tests/BaseTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/tests/SearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/tests/SearchTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +39,10 @@
   "keyToString": {
     "JUnit.SearchTest (1).executor": "Run",
     "JUnit.SearchTest.executor": "Run",
+    "JUnit.SearchTest.should_return_products_by_product_name.executor": "Run",
+    "JUnit.SearchTest.should_return_products_by_search_name_frame.executor": "Run",
     "JUnit.SearchTest.should_return_products_by_search_name_mug.executor": "Run",
+    "JUnit.SearchTest.should_return_products_by_search_name_tshirt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -53,7 +50,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.SearchTest (1)">
+  <component name="RunManager" selected="JUnit.SearchTest.should_return_products_by_product_name">
     <configuration name="SearchTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fast_playwright_demo" />
       <extension name="coverage">
@@ -69,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ui_project_sklep_dla_testerow" />
+    <configuration name="SearchTest.should_return_products_by_product_name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fast_playwright_demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pl.akademiaqa.tests.*" />
@@ -79,7 +76,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="pl.akademiaqa.tests" />
       <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.tests.SearchTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="should_return_products_by_product_name(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTest.should_return_products_by_search_name_frame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fast_playwright_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.akademiaqa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.akademiaqa.tests" />
+      <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.tests.SearchTest" />
+      <option name="METHOD_NAME" value="should_return_products_by_search_name_frame" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -100,6 +114,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchTest.should_return_products_by_search_name_tshirt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fast_playwright_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.akademiaqa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.akademiaqa.tests" />
+      <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.tests.SearchTest" />
+      <option name="METHOD_NAME" value="should_return_products_by_search_name_tshirt" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,9 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SearchTest.should_return_products_by_product_name" />
+        <item itemvalue="JUnit.SearchTest.should_return_products_by_search_name_tshirt" />
+        <item itemvalue="JUnit.SearchTest.should_return_products_by_search_name_frame" />
         <item itemvalue="JUnit.SearchTest (1)" />
         <item itemvalue="JUnit.SearchTest.should_return_products_by_search_name_mug" />
-        <item itemvalue="JUnit.SearchTest" />
       </list>
     </recent_temporary>
   </component>
