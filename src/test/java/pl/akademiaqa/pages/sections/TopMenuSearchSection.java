@@ -3,13 +3,15 @@ package pl.akademiaqa.pages.sections;
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 import lombok.Getter;
+import pl.akademiaqa.pages.SearchResultPage;
 
 public class TopMenuSearchSection {
 
+    @Getter
+
     private Page page;
 
-    @Getter
-    private Locator searchInput;
+    private final Locator searchInput;
 
     public TopMenuSearchSection(Page page) {
         this.page = page;
@@ -17,8 +19,10 @@ public class TopMenuSearchSection {
 
     }
 
-    public void searchForProducts(String productName) {
+    public SearchResultPage searchForProducts(String productName) {
         searchInput.fill(productName);
         page.keyboard().press("Enter");
+
+        return new SearchResultPage(page);
     }
 }

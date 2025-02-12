@@ -4,15 +4,12 @@ import com.microsoft.playwright.Page;
 import lombok.Getter;
 import pl.akademiaqa.pages.sections.TopMenuSearchSection;
 
+@Getter
 public class HomePage {
 
-    private Page page;
-
-    @Getter
-    private TopMenuSearchSection topMenuSearchSection;
+    private final TopMenuSearchSection topMenuSearchSection;
 
     public HomePage(Page page) {
-        this.page = page;
         this.topMenuSearchSection = new TopMenuSearchSection(page);
     }
 }

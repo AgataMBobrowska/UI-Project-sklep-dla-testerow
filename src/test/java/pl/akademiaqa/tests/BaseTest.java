@@ -2,6 +2,10 @@ package pl.akademiaqa.tests;
 
 import com.microsoft.playwright.*;
 import org.junit.jupiter.api.*;
+import java.nio.file.Paths;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import static pl.akademiaqa.utils.StringUtils.removeRoundBrackets;
 
 public class BaseTest {
 
@@ -40,13 +44,13 @@ public class BaseTest {
     @AfterEach
     void closeContext(TestInfo testInfo) {
         browserContext.close();
-//
+
 //        String traceName = "trace/trace_"
 //                + removeRoundBrackets(testInfo.getDisplayName())
 //                + "_" + LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd_HH-mm-ss")) + ".zip";
 //        browserContext.tracing().stop(new Tracing.StopOptions().setPath(Paths.get(traceName)));
-
-        browserContext.close();
+//
+//        browserContext.close();
      }
 
     @AfterAll
