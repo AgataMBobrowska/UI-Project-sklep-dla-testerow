@@ -13,6 +13,8 @@ import org.junit.jupiter.params.provider.MethodSource;
 import org.junit.jupiter.params.provider.ValueSource;
 import pl.akademiaqa.pages.HomePage;
 import pl.akademiaqa.pages.SearchResultPage;
+import pl.akademiaqa.utils.Properties;
+
 import java.util.stream.Stream;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
@@ -25,7 +27,7 @@ public class SearchTest extends BaseTest {
     void beforeEach() {
 
         homePage = new HomePage(page);
-        page.navigate("https://skleptestera.pl/index.php");
+        page.navigate(Properties.getProperty("app.url"));
     }
 
     @DisplayName("Search for products")
