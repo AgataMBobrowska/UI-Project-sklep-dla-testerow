@@ -22,7 +22,7 @@ public class BaseTest {
         pw = Playwright.create();
         browser = pw.chromium().launch(new BrowserType.LaunchOptions()
                 .setHeadless(false)
-                .setSlowMo(1000));
+                .setSlowMo(0));
     }
 
     @BeforeEach
