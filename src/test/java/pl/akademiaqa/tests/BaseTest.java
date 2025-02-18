@@ -23,8 +23,11 @@ public class BaseTest {
     static void launchBrowser() {
         pw = Playwright.create();
         browser = pw.chromium().launch(new BrowserType.LaunchOptions()
-                .setHeadless(Boolean.parseBoolean(Properties.getProperty("browser.headless")))
-                .setSlowMo(Integer.parseInt(Properties.getProperty("browser.slow.mo"))));
+                        .setHeadless(Boolean.parseBoolean(Properties.getProperty("browser.headless")))
+                        .setSlowMo(Integer.parseInt(Properties.getProperty("browser.slow.mo")))
+                        .setChannel("msedge")
+//                .setChannel("chromium")
+        );
     }
 
     @BeforeEach

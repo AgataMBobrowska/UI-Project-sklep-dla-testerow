@@ -40,7 +40,9 @@ public class SearchTest extends BaseTest {
         return Stream.of(
                 Arguments.of("t-shirt", 1),
                 Arguments.of("mug", 5),
-                Arguments.of("frame", 4)
+                Arguments.of("frame", 4),
+                Arguments.of("graphics", 3),
+                Arguments.of("notebook", 3)
         );
     }
 }
