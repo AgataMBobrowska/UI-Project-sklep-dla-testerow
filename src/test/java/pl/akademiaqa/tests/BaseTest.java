@@ -25,8 +25,6 @@ public class BaseTest {
         browser = pw.chromium().launch(new BrowserType.LaunchOptions()
                         .setHeadless(Boolean.parseBoolean(Properties.getProperty("browser.headless")))
                         .setSlowMo(Integer.parseInt(Properties.getProperty("browser.slow.mo")))
-                        .setChannel("msedge")
-//                .setChannel("chromium")
         );
     }
 
