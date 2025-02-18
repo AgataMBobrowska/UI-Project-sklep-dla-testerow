@@ -5,11 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="134a8de0-9663-4451-b336-85c6726be7b1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/TopNavigationSection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/tests/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/tests/SearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/tests/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/tests/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/pages/HomePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/tests/SearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/tests/SearchTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace/trace_Search for frame should return 4 products_2025-02-18_12-24-23.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace/trace_Search for frame should return 4 products_2025-02-18_12-51-21.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace/trace_Search for frame should return 4 products_2025-02-18_12-51-22.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace/trace_Search for frame should return 4 products_2025-02-18_12-59-07.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace/trace_Search for frame should return 4 products_2025-02-18_13-03-20.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace/trace_Search for frame should return 4 products_2025-02-18_13-03-56.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace/trace_Search for frame should return 4 products_2025-02-18_13-05-01.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace/trace_Search for graphics should return 3 products_2025-02-18_12-59-10.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace/trace_Search for graphics should return 3 products_2025-02-18_13-03-23.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace/trace_Search for graphics should return 3 products_2025-02-18_13-03-59.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace/trace_Search for graphics should return 3 products_2025-02-18_13-05-03.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace/trace_Search for mug should return 5 products_2025-02-18_12-24-20.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace/trace_Search for mug should return 5 products_2025-02-18_12-51-18.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace/trace_Search for mug should return 5 products_2025-02-18_12-51-19.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace/trace_Search for mug should return 5 products_2025-02-18_12-59-03.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace/trace_Search for mug should return 5 products_2025-02-18_13-03-17.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace/trace_Search for mug should return 5 products_2025-02-18_13-03-53.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace/trace_Search for mug should return 5 products_2025-02-18_13-04-58.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace/trace_Search for notebook should return 3 products_2025-02-18_12-59-13.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace/trace_Search for notebook should return 3 products_2025-02-18_13-03-26.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace/trace_Search for notebook should return 3 products_2025-02-18_13-04-04.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace/trace_Search for notebook should return 3 products_2025-02-18_13-05-06.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace/trace_Search for t-shirt should return 1 products_2025-02-18_12-24-17.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace/trace_Search for t-shirt should return 1 products_2025-02-18_12-51-15.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace/trace_Search for t-shirt should return 1 products_2025-02-18_12-51-16.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace/trace_Search for t-shirt should return 1 products_2025-02-18_12-58-59.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace/trace_Search for t-shirt should return 1 products_2025-02-18_13-03-14.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace/trace_Search for t-shirt should return 1 products_2025-02-18_13-03-50.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace/trace_Search for t-shirt should return 1 products_2025-02-18_13-04-55.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

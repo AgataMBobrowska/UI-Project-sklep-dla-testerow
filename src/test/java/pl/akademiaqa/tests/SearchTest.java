@@ -26,6 +26,7 @@ public class SearchTest extends BaseTest {
 
         homePage = new HomePage(page);
         page.navigate(Properties.getProperty("app.url"));
+        homePage.getTopNavigationSection().setPageLanguageToEn();
     }
 
     @DisplayName("Search for products")
