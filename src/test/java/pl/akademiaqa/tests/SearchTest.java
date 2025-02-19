@@ -43,7 +43,9 @@ public class SearchTest extends BaseTest {
                 Arguments.of("mug", 5),
                 Arguments.of("frame", 4),
                 Arguments.of("graphics", 3),
-                Arguments.of("notebook", 3)
+                Arguments.of("notebook", 3),
+                Arguments.of("sweater", 1),
+                Arguments.of("cushion", 3)
         );
     }
 }
