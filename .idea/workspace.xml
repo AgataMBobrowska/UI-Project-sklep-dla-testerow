@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="134a8de0-9663-4451-b336-85c6726be7b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/ArtPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/tests/FilterByPriceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/products/FilterBySection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/products/ProductsSection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/TopMenuSearchSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/TopMenuSearchSection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/tests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/tests/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/tests/SearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/tests/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/tests/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/tests/SearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/tests/SearchTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/ArtPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/ArtPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/tests/FilterByPriceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/tests/FilterByPriceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/pages/sections/TopMenuSearchSection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/pages/sections/TopMenuSearchSection.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +41,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.FilterByPriceTest.executor": "Run",
+    "JUnit.FilterByPriceTest.should_return_products_with_price_greater_than_40.executor": "Run",
     "JUnit.SearchTest (1).executor": "Run",
     "JUnit.SearchTest.executor": "Run",
     "JUnit.SearchTest.should_return_products_by_product_name (1).executor": "Run",
@@ -58,7 +56,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.FilterByPriceTest">
+  <component name="RunManager" selected="JUnit.FilterByPriceTest.should_return_products_with_price_greater_than_40">
     <configuration name="FilterByPriceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fast_playwright_demo" />
       <extension name="coverage">
@@ -70,6 +68,22 @@
       <option name="PACKAGE_NAME" value="pl.akademiaqa.tests" />
       <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.tests.FilterByPriceTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilterByPriceTest.should_return_products_with_price_greater_than_40" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fast_playwright_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.akademiaqa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.akademiaqa.tests" />
+      <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.tests.FilterByPriceTest" />
+      <option name="METHOD_NAME" value="should_return_products_with_price_greater_than_40" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,22 +135,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTest.should_return_products_by_search_name_tshirt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fast_playwright_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.akademiaqa.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.akademiaqa.tests" />
-      <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.tests.SearchTest" />
-      <option name="METHOD_NAME" value="should_return_products_by_search_name_tshirt" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FilterByPriceTest.should_return_products_with_price_greater_than_40" />
         <item itemvalue="JUnit.FilterByPriceTest" />
         <item itemvalue="JUnit.SearchTest (1)" />
         <item itemvalue="JUnit.SearchTest.should_return_products_by_product_name (1)" />
         <item itemvalue="JUnit.SearchTest.should_return_products_by_product_name" />
-        <item itemvalue="JUnit.SearchTest.should_return_products_by_search_name_tshirt" />
       </list>
     </recent_temporary>
   </component>

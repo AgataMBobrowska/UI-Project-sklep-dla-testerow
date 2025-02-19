@@ -1,5 +1,6 @@
 package pl.akademiaqa.tests;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import pl.akademiaqa.pages.ArtPage;
@@ -19,8 +20,11 @@ class FilterByPriceTest extends BaseTest {
 
     @Test
     void should_return_products_with_price_greater_than_40() {
-        System.out.println(page.url());
         ArtPage artPage = homePage.getTopMenuSearchSection().clickArtLink();
-        System.out.println(page.url());
+        String newUrl = page.url() + "&q=Price-zł-40-44";
+        page.navigate(newUrl);
+        System.out.println(artPage.getProductsSection().getProductsPrices());
+        Assertions.assertTrue(artPage.getProductsSection().getProductsPrices().stream().allMatch(p -> p > 40));
+        artPage.getFilterBySection().showLeftLocator();
     }
 }
