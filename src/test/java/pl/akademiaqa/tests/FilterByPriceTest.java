@@ -24,7 +24,7 @@ class FilterByPriceTest extends BaseTest {
 //        String newUrl = page.url() + "&q=Price-zł-40-44";
 //        page.navigate(newUrl);
 
-        artPage.getFilterBySection().filterProductsByPriceWithCursor();
+        artPage.getFilterBySection().filterProductsByPriceWithCursor(40.00);
         System.out.println(artPage.getProductsSection().getProductsPrices());
 
 //        Assertions.assertTrue(artPage.getProductsSection().getProductsPrices().stream().allMatch(p -> p > 40));
