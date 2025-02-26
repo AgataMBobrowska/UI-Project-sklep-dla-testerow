@@ -22,6 +22,7 @@ class FilterByCompositionTest extends BaseTest{
         ArtPage artPage = homePage.getTopMenuSearchSection().clickArtLink();
         artPage.getFilterByComposition().clickMattPaper();
         page.waitForTimeout(2000);
-
+        int mattPaperProductCount = artPage.getFilterByComposition().countMattPaperProducts();
+        System.out.println("Number of Matt paper products: " + mattPaperProductCount);
     }
 }
