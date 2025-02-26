@@ -3,10 +3,7 @@ package pl.akademiaqa.pages.sections.products;
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-
-import static com.fasterxml.jackson.databind.cfg.CoercionInputShape.Array;
 
 public class FilterBySection {
 
@@ -54,5 +51,12 @@ public class FilterBySection {
                 .map(Double::parseDouble)
                 .findFirst()
                 .orElseThrow(() -> new IllegalStateException("Invalid price format"));
+    }
+
+    public void filterProductsByPriceWithKeyboard(double fromPrice) {
+        while (fromPrice != getFromPrice()) {
+            leftSlider.press("ArrowRight");
+            page.waitForCondition(() -> page.locator(".overlay__inner").isHidden());
+        }
     }
 }

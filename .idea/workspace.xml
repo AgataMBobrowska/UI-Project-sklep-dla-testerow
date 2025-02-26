@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="134a8de0-9663-4451-b336-85c6726be7b1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/products/FilterByComposition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/tests/FilterByCompositionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/ArtPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/ArtPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/products/FilterBySection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/products/FilterBySection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/tests/FilterByPriceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/tests/FilterByPriceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/pages/ArtPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/pages/ArtPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/pages/sections/products/FilterBySection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/pages/sections/products/FilterBySection.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/tests/FilterByPriceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/tests/FilterByPriceTest.class" afterDir="false" />
     </list>
@@ -37,25 +41,65 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.FilterByPriceTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FilterByPriceTest.should_return_products_with_price_greater_than_40.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SearchTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SearchTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SearchTest.should_return_products_by_product_name (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SearchTest.should_return_products_by_product_name.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SearchTest.should_return_products_by_search_name_frame.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SearchTest.should_return_products_by_search_name_mug.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SearchTest.should_return_products_by_search_name_tshirt.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.FilterByCompositionTest.executor": "Run",
+    "JUnit.FilterByCompositionTest.should_return_matt_paper_products.executor": "Run",
+    "JUnit.FilterByPriceTest.executor": "Run",
+    "JUnit.FilterByPriceTest.should_return_products_with_price_greater_than_40.executor": "Run",
+    "JUnit.FilterByPriceTest.should_return_products_with_price_greater_than_40_by_cursor.executor": "Run",
+    "JUnit.FilterByPriceTest.should_return_products_with_price_greater_than_40_by_keyboard.executor": "Run",
+    "JUnit.FilterByPriceTest.should_return_products_with_price_greater_than_40_by_url.executor": "Debug",
+    "JUnit.SearchTest (1).executor": "Run",
+    "JUnit.SearchTest.executor": "Run",
+    "JUnit.SearchTest.should_return_products_by_product_name (1).executor": "Run",
+    "JUnit.SearchTest.should_return_products_by_product_name.executor": "Run",
+    "JUnit.SearchTest.should_return_products_by_search_name_frame.executor": "Run",
+    "JUnit.SearchTest.should_return_products_by_search_name_mug.executor": "Run",
+    "JUnit.SearchTest.should_return_products_by_search_name_tshirt.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.FilterByPriceTest.should_return_products_with_price_greater_than_40">
+}]]></component>
+  <component name="RunManager" selected="JUnit.FilterByCompositionTest">
+    <configuration name="FilterByCompositionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fast_playwright_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.akademiaqa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.akademiaqa.tests" />
+      <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.tests.FilterByCompositionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilterByCompositionTest.should_return_matt_paper_products" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fast_playwright_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.akademiaqa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.akademiaqa.tests" />
+      <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.tests.FilterByCompositionTest" />
+      <option name="METHOD_NAME" value="should_return_matt_paper_products" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FilterByPriceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fast_playwright_demo" />
       <extension name="coverage">
@@ -71,7 +115,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilterByPriceTest.should_return_products_with_price_greater_than_40" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FilterByPriceTest.should_return_products_with_price_greater_than_40_by_cursor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fast_playwright_demo" />
       <extension name="coverage">
         <pattern>
@@ -81,13 +125,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="pl.akademiaqa.tests" />
       <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.tests.FilterByPriceTest" />
-      <option name="METHOD_NAME" value="should_return_products_with_price_greater_than_40" />
+      <option name="METHOD_NAME" value="should_return_products_with_price_greater_than_40_by_cursor" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FilterByPriceTest.should_return_products_with_price_greater_than_40_by_keyboard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fast_playwright_demo" />
       <extension name="coverage">
         <pattern>
@@ -96,39 +140,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pl.akademiaqa.tests" />
-      <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.tests.SearchTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchTest.should_return_products_by_product_name (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fast_playwright_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.akademiaqa.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.akademiaqa.tests" />
-      <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.tests.SearchTest" />
-      <option name="METHOD_NAME" value="should_return_products_by_product_name(java.lang.String,int)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchTest.should_return_products_by_product_name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fast_playwright_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.akademiaqa.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.akademiaqa.tests" />
-      <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.tests.SearchTest" />
-      <option name="METHOD_NAME" value="should_return_products_by_product_name(java.lang.String)" />
+      <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.tests.FilterByPriceTest" />
+      <option name="METHOD_NAME" value="should_return_products_with_price_greater_than_40_by_keyboard" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FilterByPriceTest.should_return_products_with_price_greater_than_40" />
+        <item itemvalue="JUnit.FilterByCompositionTest" />
+        <item itemvalue="JUnit.FilterByCompositionTest.should_return_matt_paper_products" />
         <item itemvalue="JUnit.FilterByPriceTest" />
-        <item itemvalue="JUnit.SearchTest (1)" />
-        <item itemvalue="JUnit.SearchTest.should_return_products_by_product_name (1)" />
-        <item itemvalue="JUnit.SearchTest.should_return_products_by_product_name" />
+        <item itemvalue="JUnit.FilterByPriceTest.should_return_products_with_price_greater_than_40_by_keyboard" />
+        <item itemvalue="JUnit.FilterByPriceTest.should_return_products_with_price_greater_than_40_by_cursor" />
       </list>
     </recent_temporary>
   </component>
@@ -163,5 +176,16 @@
       <updated>1737743772517</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
