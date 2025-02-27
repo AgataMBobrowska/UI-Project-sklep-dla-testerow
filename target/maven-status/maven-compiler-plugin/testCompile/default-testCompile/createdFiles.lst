@@ -1,0 +1,13 @@
+pl\akademiaqa\pages\sections\searchResultsPage\SearchResultSection.class
+pl\akademiaqa\pages\SearchResultPage.class
+pl\akademiaqa\tests\BaseTest.class
+pl\akademiaqa\pages\sections\products\ProductsSection.class
+pl\akademiaqa\pages\ArtPage.class
+pl\akademiaqa\pages\sections\products\FilterByComposition.class
+pl\akademiaqa\tests\SearchTest.class
+pl\akademiaqa\pages\sections\TopMenuSearchSection.class
+pl\akademiaqa\pages\sections\products\FilterBySection.class
+pl\akademiaqa\pages\HomePage.class
+pl\akademiaqa\pages\sections\TopNavigationSection.class
+pl\akademiaqa\tests\FilterByCompositionTest.class
+pl\akademiaqa\tests\FilterByPriceTest.class

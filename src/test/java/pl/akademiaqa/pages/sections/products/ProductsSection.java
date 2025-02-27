@@ -2,9 +2,12 @@ package pl.akademiaqa.pages.sections.products;
 
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
+import pl.akademiaqa.utils.StringUtils;
 
 import java.util.List;
 import java.util.stream.Collectors;
+
+import static pl.akademiaqa.utils.StringUtils.toUTF8;
 
 public class ProductsSection {
 
@@ -24,7 +27,7 @@ public class ProductsSection {
     public List<Double> getProductsPrices()  {
         return getProductPricesText()
                 .stream()
-                .map(p -> p.replaceAll("zł", ""))
+                .map(p -> p.replaceAll(toUTF8("zł"), ""))
                 .map(Double::parseDouble)
                 .collect(Collectors.toList());
     }

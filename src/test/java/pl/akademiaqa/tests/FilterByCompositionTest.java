@@ -6,7 +6,7 @@ import pl.akademiaqa.pages.ArtPage;
 import pl.akademiaqa.pages.HomePage;
 import pl.akademiaqa.utils.Properties;
 
-class FilterByCompositionTest extends BaseTest{
+class FilterByCompositionTest extends BaseTest {
 
     private HomePage homePage;
 
@@ -21,7 +21,6 @@ class FilterByCompositionTest extends BaseTest{
     void should_return_matt_paper_products() {
         ArtPage artPage = homePage.getTopMenuSearchSection().clickArtLink();
         artPage.getFilterByComposition().clickMattPaper();
-        page.waitForTimeout(2000);
         int mattPaperProductCount = artPage.getFilterByComposition().countMattPaperProducts();
         System.out.println("Number of Matt paper products: " + mattPaperProductCount);
     }

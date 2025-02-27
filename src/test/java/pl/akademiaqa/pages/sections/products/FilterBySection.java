@@ -2,8 +2,11 @@ package pl.akademiaqa.pages.sections.products;
 
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
+import pl.akademiaqa.utils.StringUtils;
 
 import java.util.Arrays;
+
+import static pl.akademiaqa.utils.StringUtils.toUTF8;
 
 public class FilterBySection {
 
@@ -47,7 +50,7 @@ public class FilterBySection {
     private double getFromPrice() {
         return Arrays.asList(page.locator("#search_filters li p").innerText().split(" "))
                 .stream()
-                .map(p -> p.replaceAll("zł", ""))
+                .map(p -> p.replaceAll(toUTF8("zł"), ""))
                 .map(Double::parseDouble)
                 .findFirst()
                 .orElseThrow(() -> new IllegalStateException("Invalid price format"));

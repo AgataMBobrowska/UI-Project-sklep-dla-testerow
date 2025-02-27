@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: pl.akademiaqa.tests.FilterByCompositionTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.177 s - in pl.akademiaqa.tests.FilterByCompositionTest
