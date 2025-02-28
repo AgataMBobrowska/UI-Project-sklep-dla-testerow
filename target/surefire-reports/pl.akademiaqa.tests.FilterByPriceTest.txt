@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: pl.akademiaqa.tests.FilterByPriceTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 70.951 s - in pl.akademiaqa.tests.FilterByPriceTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 65.374 s - in pl.akademiaqa.tests.FilterByPriceTest

@@ -8,7 +8,7 @@ import java.nio.charset.StandardCharsets;
 public class StringUtils {
 
     public static String removeRoundBrackets(String text) {
-        return text.replaceAll("[(]", "");
+        return text.replaceAll("[()]", "");
     }
 
     public static String toUTF8(String str) {

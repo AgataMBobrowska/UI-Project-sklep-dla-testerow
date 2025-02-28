@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="pl.akademiaqa.tests.SearchTest" time="29.672" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="pl.akademiaqa.tests.SearchTest" time="25.633" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="PL"/>
     <property name="sun.boot.library.path" value="C:\Agata.jvms\jvms_v2.1.6_amd64\store\17.0.6\bin"/>
-    <property name="sun.java.command" value="C:\Users\ejdrien\AppData\Local\Temp\surefire5027420939573426519\surefirebooter-20250227131135634_3.jar C:\Users\ejdrien\AppData\Local\Temp\surefire5027420939573426519 2025-02-27T13-11-35_460-jvmRun1 surefire-20250227131135634_1tmp surefire_0-20250227131135634_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\ejdrien\AppData\Local\Temp\surefire11979594148010316759\surefirebooter-20250227141555980_3.jar C:\Users\ejdrien\AppData\Local\Temp\surefire11979594148010316759 2025-02-27T14-15-55_844-jvmRun1 surefire-20250227141555980_1tmp surefire_0-20250227141555980_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\ejdrien\IdeaProjects\ui_project_sklep_dla_testerow\target\test-classes;C:\Users\ejdrien\IdeaProjects\ui_project_sklep_dla_testerow\target\classes;C:\Users\ejdrien\.m2\repository\com\microsoft\playwright\playwright\1.33.0\playwright-1.33.0.jar;C:\Users\ejdrien\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ejdrien\.m2\repository\com\microsoft\playwright\driver\1.33.0\driver-1.33.0.jar;C:\Users\ejdrien\.m2\repository\com\microsoft\playwright\driver-bundle\1.33.0\driver-bundle-1.33.0.jar;C:\Users\ejdrien\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\ejdrien\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\ejdrien\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\ejdrien\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\ejdrien\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\ejdrien\.m2\repository\net\bytebuddy\byte-buddy\1.12.21\byte-buddy-1.12.21.jar;C:\Users\ejdrien\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\ejdrien\.m2\repository\org\slf4j\slf4j-simple\2.0.7\slf4j-simple-2.0.7.jar;C:\Users\ejdrien\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\ejdrien\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\ejdrien\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.1\jackson-databind-2.15.1.jar;C:\Users\ejdrien\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.1\jackson-annotations-2.15.1.jar;C:\Users\ejdrien\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.1\jackson-core-2.15.1.jar;C:\Users\ejdrien\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\ejdrien\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\ejdrien\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\ejdrien\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\ejdrien\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ejdrien\AppData\Local\Temp\surefire5027420939573426519\surefirebooter-20250227131135634_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ejdrien\AppData\Local\Temp\surefire11979594148010316759\surefirebooter-20250227141555980_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.6+9-LTS-190"/>
@@ -56,11 +56,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="should_return_products_by_product_name(String, int)[1]" classname="pl.akademiaqa.tests.SearchTest" time="4.668"/>
-  <testcase name="should_return_products_by_product_name(String, int)[2]" classname="pl.akademiaqa.tests.SearchTest" time="4.814"/>
-  <testcase name="should_return_products_by_product_name(String, int)[3]" classname="pl.akademiaqa.tests.SearchTest" time="4.233"/>
-  <testcase name="should_return_products_by_product_name(String, int)[4]" classname="pl.akademiaqa.tests.SearchTest" time="4.109"/>
-  <testcase name="should_return_products_by_product_name(String, int)[5]" classname="pl.akademiaqa.tests.SearchTest" time="3.629"/>
-  <testcase name="should_return_products_by_product_name(String, int)[6]" classname="pl.akademiaqa.tests.SearchTest" time="3.508"/>
-  <testcase name="should_return_products_by_product_name(String, int)[7]" classname="pl.akademiaqa.tests.SearchTest" time="3.999"/>
+  <testcase name="should_return_products_by_product_name(String, int)[1]" classname="pl.akademiaqa.tests.SearchTest" time="3.938"/>
+  <testcase name="should_return_products_by_product_name(String, int)[2]" classname="pl.akademiaqa.tests.SearchTest" time="3.679"/>
+  <testcase name="should_return_products_by_product_name(String, int)[3]" classname="pl.akademiaqa.tests.SearchTest" time="3.438"/>
+  <testcase name="should_return_products_by_product_name(String, int)[4]" classname="pl.akademiaqa.tests.SearchTest" time="3.477"/>
+  <testcase name="should_return_products_by_product_name(String, int)[5]" classname="pl.akademiaqa.tests.SearchTest" time="3.541"/>
+  <testcase name="should_return_products_by_product_name(String, int)[6]" classname="pl.akademiaqa.tests.SearchTest" time="3.41"/>
+  <testcase name="should_return_products_by_product_name(String, int)[7]" classname="pl.akademiaqa.tests.SearchTest" time="3.503"/>
 </testsuite>
