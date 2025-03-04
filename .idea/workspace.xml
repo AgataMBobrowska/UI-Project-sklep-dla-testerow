@@ -5,18 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="134a8de0-9663-4451-b336-85c6726be7b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/akademiaqa/dto/ProductDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/tests/PurchaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/akademiaqa/utils/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/akademiaqa/utils/StringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/akademiaqa/dto/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/akademiaqa/dto/ProductDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/searchResultsPage/SearchResultSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/searchResultsPage/SearchResultSection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/akademiaqa/utils/StringUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/akademiaqa/utils/StringUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/tests/PurchaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/tests/PurchaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/akademiaqa/dto/ProductDTO$ProductDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/akademiaqa/dto/ProductDTO$ProductDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/akademiaqa/dto/ProductDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/akademiaqa/dto/ProductDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-pl.akademiaqa.tests.FilterByCompositionTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-pl.akademiaqa.tests.FilterByCompositionTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-pl.akademiaqa.tests.FilterByPriceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-pl.akademiaqa.tests.FilterByPriceTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-pl.akademiaqa.tests.SearchTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-pl.akademiaqa.tests.SearchTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/pl.akademiaqa.tests.FilterByCompositionTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/pl.akademiaqa.tests.FilterByCompositionTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/pl.akademiaqa.tests.FilterByPriceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/pl.akademiaqa.tests.FilterByPriceTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/pl.akademiaqa.tests.SearchTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/pl.akademiaqa.tests.SearchTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/pages/sections/searchResultsPage/SearchResultSection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/pages/sections/searchResultsPage/SearchResultSection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/tests/PurchaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/tests/PurchaseTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +60,7 @@
     "JUnit.FilterByPriceTest.should_return_products_with_price_greater_than_40_by_keyboard.executor": "Run",
     "JUnit.FilterByPriceTest.should_return_products_with_price_greater_than_40_by_url.executor": "Debug",
     "JUnit.PurchaseTest.executor": "Run",
+    "JUnit.PurchaseTest.should_purchase_product_test.executor": "Debug",
     "JUnit.SearchTest (1).executor": "Run",
     "JUnit.SearchTest.executor": "Run",
     "JUnit.SearchTest.should_return_products_by_product_name (1).executor": "Run",
@@ -119,22 +126,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilterByPriceTest.should_return_products_with_price_greater_than_40_by_keyboard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fast_playwright_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.akademiaqa.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.akademiaqa.tests" />
-      <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.tests.FilterByPriceTest" />
-      <option name="METHOD_NAME" value="should_return_products_with_price_greater_than_40_by_keyboard" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PurchaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fast_playwright_demo" />
       <extension name="coverage">
@@ -146,6 +137,22 @@
       <option name="PACKAGE_NAME" value="pl.akademiaqa.tests" />
       <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.tests.PurchaseTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PurchaseTest.should_purchase_product_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fast_playwright_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.akademiaqa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.akademiaqa.tests" />
+      <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.tests.PurchaseTest" />
+      <option name="METHOD_NAME" value="should_purchase_product_test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -162,10 +169,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.PurchaseTest" />
+        <item itemvalue="JUnit.PurchaseTest.should_purchase_product_test" />
         <item itemvalue="JUnit.FilterByPriceTest" />
         <item itemvalue="JUnit.FilterByCompositionTest" />
         <item itemvalue="JUnit.FilterByCompositionTest.should_return_matt_paper_products" />
-        <item itemvalue="JUnit.FilterByPriceTest.should_return_products_with_price_greater_than_40_by_keyboard" />
       </list>
     </recent_temporary>
   </component>

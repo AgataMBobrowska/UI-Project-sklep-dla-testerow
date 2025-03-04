@@ -8,9 +8,9 @@ import com.microsoft.playwright.Locator;
 @Builder
 public class ProductDTO {
 
+    private Locator thumbnail;
+
     private String name;
 
     private double price;
-
-    private Locator thumbnail;
 }

@@ -3,12 +3,12 @@ package pl.akademiaqa.tests;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import pl.akademiaqa.pages.HomePage;
+import pl.akademiaqa.pages.SearchResultPage;
 import pl.akademiaqa.utils.Properties;
 
 public class PurchaseTest extends BaseTest{
 
     private HomePage homePage;
-
 
     @BeforeEach
     void beforeEach() {
@@ -18,6 +18,7 @@ public class PurchaseTest extends BaseTest{
     }
     @Test
     void should_purchase_product_test() {
-        homePage.getTopMenuSearchSection().searchForProducts("Customizable mug");
+        SearchResultPage searchResultPage = homePage.getTopMenuSearchSection().searchForProducts("Customizable mug");
+
     }
 }

@@ -1,5 +1,7 @@
-pl\akademiaqa\Main.class
+pl\akademiaqa\dto\ProductDTO.class
 pl\akademiaqa\factory\BrowserFactory.class
 pl\akademiaqa\utils\PageUtils.class
+pl\akademiaqa\Main.class
+pl\akademiaqa\dto\ProductDTO$ProductDTOBuilder.class
 pl\akademiaqa\utils\Properties.class
 pl\akademiaqa\utils\StringUtils.class

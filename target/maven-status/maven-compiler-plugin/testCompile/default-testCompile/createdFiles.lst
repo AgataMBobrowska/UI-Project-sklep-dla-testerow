@@ -1,4 +1,5 @@
 pl\akademiaqa\pages\sections\searchResultsPage\SearchResultSection.class
+pl\akademiaqa\tests\PurchaseTest.class
 pl\akademiaqa\pages\SearchResultPage.class
 pl\akademiaqa\tests\BaseTest.class
 pl\akademiaqa\pages\sections\products\ProductsSection.class
