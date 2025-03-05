@@ -6,7 +6,7 @@ import pl.akademiaqa.pages.HomePage;
 import pl.akademiaqa.pages.SearchResultPage;
 import pl.akademiaqa.utils.Properties;
 
-public class PurchaseTest extends BaseTest{
+class PurchaseTest extends BaseTest {
 
     private HomePage homePage;
 
@@ -16,9 +16,10 @@ public class PurchaseTest extends BaseTest{
         page.navigate(Properties.getProperty("app.url"));
         homePage.getTopNavigationSection().setPageLanguageToEn();
     }
+
     @Test
     void should_purchase_product_test() {
-        SearchResultPage searchResultPage = homePage.getTopMenuSearchSection().searchForProducts("Customizable mug");
-
+        SearchResultPage searchResultPage = homePage.getTopMenuSearchSection().searchForProducts("Customizable Mug");
+        searchResultPage.getSearchResultSection().viewProductDetails("Customizable Mug");
     }
 }
