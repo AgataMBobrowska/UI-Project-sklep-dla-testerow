@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="134a8de0-9663-4451-b336-85c6726be7b1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/ProductDetailsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/productDetailsPage/AddToCartSection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/productDetailsPage/ProductCustomizationSection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/SearchResultPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/searchResultsPage/SearchResultSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/searchResultsPage/SearchResultSection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/tests/PurchaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/tests/PurchaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/pages/sections/searchResultsPage/SearchResultSection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/pages/sections/searchResultsPage/SearchResultSection.class" afterDir="false" />
@@ -67,7 +69,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.PurchaseTest">
+  <component name="RunManager" selected="JUnit.PurchaseTest.should_purchase_product_test">
     <configuration name="FilterByCompositionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fast_playwright_demo" />
       <extension name="coverage">
@@ -156,8 +158,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PurchaseTest" />
         <item itemvalue="JUnit.PurchaseTest.should_purchase_product_test" />
+        <item itemvalue="JUnit.PurchaseTest" />
         <item itemvalue="JUnit.FilterByPriceTest" />
         <item itemvalue="JUnit.FilterByCompositionTest" />
         <item itemvalue="JUnit.FilterByCompositionTest.should_return_matt_paper_products" />
