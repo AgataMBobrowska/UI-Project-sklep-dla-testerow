@@ -1,8 +1,8 @@
 package pl.akademiaqa.pages.sections.productDetailsPage;
 
-
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
+import pl.akademiaqa.pages.modals.AddToCartConfirmationModalPage;
 
 public class AddToCartSection {
 
@@ -15,7 +15,8 @@ public class AddToCartSection {
         this.page = page;
     }
 
-    public void addToCart() {
+    public AddToCartConfirmationModalPage addToCart() {
         addToCartButton.click();
+        return new AddToCartConfirmationModalPage(page);
     }
 }

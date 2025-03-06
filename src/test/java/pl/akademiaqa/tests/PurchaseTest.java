@@ -1,10 +1,12 @@
 package pl.akademiaqa.tests;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import pl.akademiaqa.pages.HomePage;
 import pl.akademiaqa.pages.ProductDetailsPage;
 import pl.akademiaqa.pages.SearchResultPage;
+import pl.akademiaqa.pages.modals.AddToCartConfirmationModalPage;
 import pl.akademiaqa.utils.Properties;
 
 class PurchaseTest extends BaseTest {
@@ -23,6 +25,9 @@ class PurchaseTest extends BaseTest {
         SearchResultPage searchResultPage = homePage.getTopMenuSearchSection().searchForProducts("Customizable Mug");
         ProductDetailsPage productDetailsPage = searchResultPage.getSearchResultSection().viewProductDetails("Customizable Mug");
         productDetailsPage.getProductCustomizationSection().setCustomMessage("Hello");
+        AddToCartConfirmationModalPage confirmationModal = productDetailsPage.getAddToCartSection().addToCart();
+        Assertions.assertTrue(confirmationModal.getConfirmationLabelText().contains("Product successfully added to your shopping cart"));
+        confirmationModal.clickProceedToCheckoutButton();
 
         page.waitForTimeout(3000);
     }
