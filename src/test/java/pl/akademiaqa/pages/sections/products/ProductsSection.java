@@ -2,6 +2,7 @@ package pl.akademiaqa.pages.sections.products;
 
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
+import pl.akademiaqa.pages.BasePage;
 import pl.akademiaqa.utils.StringUtils;
 
 import java.util.List;
@@ -9,14 +10,12 @@ import java.util.stream.Collectors;
 
 import static pl.akademiaqa.utils.StringUtils.toUTF8;
 
-public class ProductsSection {
-
-    private Page page;
+public class ProductsSection extends BasePage {
 
     private List<Locator> products;
 
     public ProductsSection(Page page) {
-        this.page = page;
+        super(page);
         this.products = page.locator(".js-product").all();
     }
 

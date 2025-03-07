@@ -1,6 +1,11 @@
+C:\Users\ejdrien\IdeaProjects\ui_project_sklep_dla_testerow\src\test\java\pl\akademiaqa\pages\sections\productDetailsPage\AddToCartSection.java
 C:\Users\ejdrien\IdeaProjects\ui_project_sklep_dla_testerow\src\test\java\pl\akademiaqa\tests\FilterByCompositionTest.java
 C:\Users\ejdrien\IdeaProjects\ui_project_sklep_dla_testerow\src\test\java\pl\akademiaqa\tests\SearchTest.java
 C:\Users\ejdrien\IdeaProjects\ui_project_sklep_dla_testerow\src\test\java\pl\akademiaqa\pages\sections\products\FilterByComposition.java
+C:\Users\ejdrien\IdeaProjects\ui_project_sklep_dla_testerow\src\test\java\pl\akademiaqa\pages\ShoppingCartPage.java
+C:\Users\ejdrien\IdeaProjects\ui_project_sklep_dla_testerow\src\test\java\pl\akademiaqa\pages\ProductDetailsPage.java
+C:\Users\ejdrien\IdeaProjects\ui_project_sklep_dla_testerow\src\test\java\pl\akademiaqa\pages\BasePage.java
+C:\Users\ejdrien\IdeaProjects\ui_project_sklep_dla_testerow\src\test\java\pl\akademiaqa\pages\modals\AddToCartConfirmationModalPage.java
 C:\Users\ejdrien\IdeaProjects\ui_project_sklep_dla_testerow\src\test\java\pl\akademiaqa\pages\SearchResultPage.java
 C:\Users\ejdrien\IdeaProjects\ui_project_sklep_dla_testerow\src\test\java\pl\akademiaqa\pages\sections\TopMenuSearchSection.java
 C:\Users\ejdrien\IdeaProjects\ui_project_sklep_dla_testerow\src\test\java\pl\akademiaqa\pages\sections\searchResultsPage\SearchResultSection.java
@@ -9,6 +14,8 @@ C:\Users\ejdrien\IdeaProjects\ui_project_sklep_dla_testerow\src\test\java\pl\aka
 C:\Users\ejdrien\IdeaProjects\ui_project_sklep_dla_testerow\src\test\java\pl\akademiaqa\tests\FilterByPriceTest.java
 C:\Users\ejdrien\IdeaProjects\ui_project_sklep_dla_testerow\src\test\java\pl\akademiaqa\tests\PurchaseTest.java
 C:\Users\ejdrien\IdeaProjects\ui_project_sklep_dla_testerow\src\test\java\pl\akademiaqa\pages\HomePage.java
+C:\Users\ejdrien\IdeaProjects\ui_project_sklep_dla_testerow\src\test\java\pl\akademiaqa\pages\sections\productDetailsPage\ProductCustomizationSection.java
 C:\Users\ejdrien\IdeaProjects\ui_project_sklep_dla_testerow\src\test\java\pl\akademiaqa\pages\sections\TopNavigationSection.java
 C:\Users\ejdrien\IdeaProjects\ui_project_sklep_dla_testerow\src\test\java\pl\akademiaqa\pages\sections\products\ProductsSection.java
+C:\Users\ejdrien\IdeaProjects\ui_project_sklep_dla_testerow\src\test\java\pl\akademiaqa\pages\sections\shoppingCartPage\SummarySection.java
 C:\Users\ejdrien\IdeaProjects\ui_project_sklep_dla_testerow\src\test\java\pl\akademiaqa\tests\BaseTest.java

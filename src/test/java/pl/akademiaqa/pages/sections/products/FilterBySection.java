@@ -2,22 +2,21 @@ package pl.akademiaqa.pages.sections.products;
 
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
+import pl.akademiaqa.pages.BasePage;
 import pl.akademiaqa.utils.StringUtils;
 
 import java.util.Arrays;
 
 import static pl.akademiaqa.utils.StringUtils.toUTF8;
 
-public class FilterBySection {
-
-    private Page page;
+public class FilterBySection extends BasePage {
 
     private Locator leftSlider;
 
     private Locator priceLabel;
 
     public FilterBySection(Page page) {
-        this.page = page;
+        super(page);
         this.leftSlider = page.locator(".ui-slider-handle").first();
         this.priceLabel = page.locator("#search_filters li p");
     }

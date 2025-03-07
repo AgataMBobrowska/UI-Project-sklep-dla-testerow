@@ -8,7 +8,7 @@ import pl.akademiaqa.pages.sections.products.ProductsSection;
 import pl.akademiaqa.utils.PageUtils;
 
 @Getter
-public class ArtPage {
+public class ArtPage extends BasePage {
 
     private final ProductsSection productsSection;
 
@@ -17,6 +17,7 @@ public class ArtPage {
     private final FilterByComposition filterByComposition;
 
     public ArtPage(Page page) {
+        super(page);
         PageUtils.waitForThePageToLoad(page);
         this.productsSection = new ProductsSection(page);
         this.filterBySection = new FilterBySection(page);

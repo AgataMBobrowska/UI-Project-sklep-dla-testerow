@@ -2,8 +2,9 @@ package pl.akademiaqa.pages.sections;
 
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
+import pl.akademiaqa.pages.BasePage;
 
-public class TopNavigationSection {
+public class TopNavigationSection extends BasePage {
 
     private Locator languageSelector;
 
@@ -12,6 +13,7 @@ public class TopNavigationSection {
     private Locator selectedLanguage;
 
     public TopNavigationSection(Page page) {
+        super(page);
         this.languageSelector = page.locator(".language-selector");
         this.english = page.locator("a[data-iso-code=en]");
         this.selectedLanguage = page.locator("span[class=expand-more]");

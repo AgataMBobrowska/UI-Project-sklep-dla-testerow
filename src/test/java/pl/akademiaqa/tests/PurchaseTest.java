@@ -28,8 +28,10 @@ class PurchaseTest extends BaseTest {
         productDetailsPage.getProductCustomizationSection().setCustomMessage("Hello");
         AddToCartConfirmationModalPage confirmationModal = productDetailsPage.getAddToCartSection().addToCart();
         Assertions.assertTrue(confirmationModal.getConfirmationLabelText().contains("Product successfully added to your shopping cart"));
-        confirmationModal.clickProceedToCheckoutButton();
         ShoppingCartPage shoppingCartPage = confirmationModal.clickProceedToCheckoutButton();
+        shoppingCartPage.getSummarySection().proceedToCheckoutButton();
+
+        page.waitForTimeout(3000);
     }
 }
 

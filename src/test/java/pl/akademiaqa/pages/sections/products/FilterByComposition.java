@@ -2,17 +2,17 @@ package pl.akademiaqa.pages.sections.products;
 
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
+import pl.akademiaqa.pages.BasePage;
 
-public class FilterByComposition {
+public class FilterByComposition extends BasePage {
 
-    private Page page;
 
     private Locator mattPaper;
 
     private Locator mattPaperProductsCount;
 
     public FilterByComposition(Page page) {
-        this.page = page;
+        super(page);
         this.mattPaper = page.locator("//a[contains(text(), 'Matt paper')]");
         this.mattPaperProductsCount = page.locator(".product-miniature");
     }
