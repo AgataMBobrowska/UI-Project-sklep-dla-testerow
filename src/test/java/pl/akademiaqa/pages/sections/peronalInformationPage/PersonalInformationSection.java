@@ -1,8 +1,10 @@
 package pl.akademiaqa.pages.sections.peronalInformationPage;
 
+import com.github.javafaker.Faker;
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 import pl.akademiaqa.pages.BasePage;
+import pl.akademiaqa.utils.EmailUtils;
 
 public class PersonalInformationSection extends BasePage {
 
@@ -47,7 +49,7 @@ public class PersonalInformationSection extends BasePage {
         selectSocialTitleMrs()
                 .fillFirstName("Maria")
                 .fillLastName("Kowalska")
-                .fillEmail("mariakowalska@email.com")
+                .fillEmail(EmailUtils.generateRandomEmail())
                 .selectDateOfBirthDay("07/05/1990")
                 .checkDataPrivacyCheckbox()
                 .checkTermsOfServiceCheckbox()
