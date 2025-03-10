@@ -5,22 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="134a8de0-9663-4451-b336-85c6726be7b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/PersonalInformationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/peronalInformationPage/PersonalInformationSection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/ArtPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/ArtPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/ProductDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/ProductDetailsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/SearchResultPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/ShoppingCartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/ShoppingCartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/modals/AddToCartConfirmationModalPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/modals/AddToCartConfirmationModalPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/TopMenuSearchSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/TopMenuSearchSection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/TopNavigationSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/TopNavigationSection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/productDetailsPage/AddToCartSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/productDetailsPage/AddToCartSection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/productDetailsPage/ProductCustomizationSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/productDetailsPage/ProductCustomizationSection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/products/FilterByComposition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/products/FilterByComposition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/products/FilterBySection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/products/FilterBySection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/products/ProductsSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/products/ProductsSection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/searchResultsPage/SearchResultSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/searchResultsPage/SearchResultSection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/shoppingCartPage/SummarySection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/shoppingCartPage/SummarySection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/tests/PurchaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/tests/PurchaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/tests/PurchaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/tests/PurchaseTest.class" afterDir="false" />
