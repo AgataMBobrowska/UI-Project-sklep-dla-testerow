@@ -5,6 +5,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import pl.akademiaqa.pages.*;
 import pl.akademiaqa.pages.modals.AddToCartConfirmationModalPage;
+import pl.akademiaqa.pages.sections.peronalInformationPage.AddressSection;
 import pl.akademiaqa.utils.Properties;
 
 class PurchaseTest extends BaseTest {
@@ -27,7 +28,10 @@ class PurchaseTest extends BaseTest {
         Assertions.assertTrue(confirmationModal.getConfirmationLabelText().contains("Product successfully added to your shopping cart"));
         ShoppingCartPage shoppingCartPage = confirmationModal.clickProceedToCheckoutButton();
         PersonalInformationPage personalInformationPage = shoppingCartPage.getSummarySection().proceedToCheckoutButton();
-        personalInformationPage.getPersonalInformation().enterPersonalInfo();
+        AddressSection addressSection = personalInformationPage.getPersonalInformation().enterPersonalInfo();
+        addressSection.fillAddress();
+
+        page.waitForTimeout(4000);
     }
 }
 

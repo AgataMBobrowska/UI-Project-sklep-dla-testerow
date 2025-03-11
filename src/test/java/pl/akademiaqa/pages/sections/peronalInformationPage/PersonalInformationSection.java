@@ -1,6 +1,5 @@
 package pl.akademiaqa.pages.sections.peronalInformationPage;
 
-import com.github.javafaker.Faker;
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 import pl.akademiaqa.pages.BasePage;
@@ -9,27 +8,28 @@ import pl.akademiaqa.utils.EmailUtils;
 public class PersonalInformationSection extends BasePage {
 
     private final String personalInformationSection = "#checkout-personal-information-step ";
+
     private final String customerForm = personalInformationSection + "#customer-form ";
 
-    private Locator socialTitleMrRadioButton;
+    private final Locator socialTitleMrRadioButton;
 
-    private Locator socialTitleMrsRadioButton;
+    private final Locator socialTitleMrsRadioButton;
 
-    private Locator firstNameInput;
+    private final Locator firstNameInput;
 
-    private Locator lastNameInput;
+    private final Locator lastNameInput;
 
-    private Locator emailInput;
+    private final Locator emailInput;
 
-    private Locator passwordInput;
+    private final Locator passwordInput;
 
-    private Locator dateOfBirthDaySelect;
+    private final Locator dateOfBirthDaySelect;
 
-    private Locator termsOfServiceCheckbox;
+    private final Locator termsOfServiceCheckbox;
 
-    private Locator dataPrivacyCheckbox;
+    private final Locator dataPrivacyCheckbox;
 
-    private Locator continueButton;
+    private final Locator continueButton;
 
     public PersonalInformationSection(Page page) {
         super(page);
@@ -45,7 +45,7 @@ public class PersonalInformationSection extends BasePage {
         this.continueButton = page.locator(customerForm + "button[name='continue']");
     }
 
-    public void enterPersonalInfo() {
+    public AddressSection enterPersonalInfo() {
         selectSocialTitleMrs()
                 .fillFirstName("Maria")
                 .fillLastName("Kowalska")
@@ -54,6 +54,8 @@ public class PersonalInformationSection extends BasePage {
                 .checkDataPrivacyCheckbox()
                 .checkTermsOfServiceCheckbox()
                 .clickContinueButton();
+
+        return new AddressSection(page);
     }
 
     private PersonalInformationSection selectSocialTitleMr() {
@@ -103,6 +105,4 @@ public class PersonalInformationSection extends BasePage {
     private void clickContinueButton() {
         continueButton.click();
     }
-
-
 }
