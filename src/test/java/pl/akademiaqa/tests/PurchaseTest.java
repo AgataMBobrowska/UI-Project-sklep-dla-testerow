@@ -6,6 +6,8 @@ import org.junit.jupiter.api.Test;
 import pl.akademiaqa.pages.*;
 import pl.akademiaqa.pages.modals.AddToCartConfirmationModalPage;
 import pl.akademiaqa.pages.sections.peronalInformationPage.AddressSection;
+import pl.akademiaqa.pages.sections.peronalInformationPage.PaymentSection;
+import pl.akademiaqa.pages.sections.peronalInformationPage.ShippingSection;
 import pl.akademiaqa.utils.Properties;
 
 class PurchaseTest extends BaseTest {
@@ -29,9 +31,11 @@ class PurchaseTest extends BaseTest {
         ShoppingCartPage shoppingCartPage = confirmationModal.clickProceedToCheckoutButton();
         PersonalInformationPage personalInformationPage = shoppingCartPage.getSummarySection().proceedToCheckoutButton();
         AddressSection addressSection = personalInformationPage.getPersonalInformation().enterPersonalInfo();
-        addressSection.fillAddress();
-
+        ShippingSection shippingSection = addressSection.fillAddress();
+        PaymentSection paymentSection = shippingSection.selectMyCarrierDelivery();
+        OrderConfirmationPage orderConfirmationPage = paymentSection.placeOrder();
+        orderConfirmationPage.getOrderConfirmationDetailsSection().getConfirmationTitle();
+        
         page.waitForTimeout(4000);
     }
 }
-

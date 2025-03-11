@@ -24,10 +24,12 @@ public class AddressSection extends BasePage {
         this.continueButton = page.locator(addressSection + "button[name='confirm-addresses']");
     }
 
-    public void fillAddress() {
+    public ShippingSection fillAddress() {
         addressInput.fill("Ulica Długa 123");
         zipCodeInput.fill("12-345");
         cityInput.fill("Piotrowo");
         continueButton.click();
+
+        return new ShippingSection(page);
     }
 }
