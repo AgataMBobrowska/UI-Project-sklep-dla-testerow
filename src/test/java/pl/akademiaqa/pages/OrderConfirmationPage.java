@@ -7,10 +7,10 @@ import pl.akademiaqa.pages.sections.orderConfirmationPage.OrderConfirmationDetai
 @Getter
 public class OrderConfirmationPage extends BasePage {
 
-    private OrderConfirmationDetailsSection orderConfirmationDetailsSection;
+    private OrderConfirmationDetailsSection confirmationDetailsSection;
 
     public OrderConfirmationPage(Page page) {
         super(page);
-        this.orderConfirmationDetailsSection = new OrderConfirmationDetailsSection(page);
+        this.confirmationDetailsSection = new OrderConfirmationDetailsSection(page);
     }
 }

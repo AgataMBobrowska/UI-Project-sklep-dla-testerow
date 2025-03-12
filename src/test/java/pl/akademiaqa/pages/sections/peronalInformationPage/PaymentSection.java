@@ -22,6 +22,7 @@ public class PaymentSection extends BasePage {
         this.placeOrderButton = page.locator(paymentSection + "#payment-confirmation button");
     }
     public OrderConfirmationPage placeOrder() {
+        page.waitForLoadState();
         payByCashRadioButton.click();
         termsOfServiceCheckbox.check();
         placeOrderButton.click();
