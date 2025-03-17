@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <option name="BUILD_PROCESS_ADDITIONAL_VM_OPTIONS" value="-Xss4m" />
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -10,8 +11,5 @@
         <module name="Fast_playwright_demo" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="ui_project_sklep_dla_testerow" target="17" />
-    </bytecodeTargetLevel>
   </component>
 </project>

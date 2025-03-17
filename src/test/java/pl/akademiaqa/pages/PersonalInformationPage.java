@@ -16,7 +16,15 @@ public class PersonalInformationPage extends BasePage {
     public PersonalInformationPage(Page page) {
         super(page);
         PageUtils.waitForThePageToLoad(page);
-        this.personalInformation= new PersonalInformationSection(page);
+        this.personalInformation = new PersonalInformationSection(page);
         this.addressSection = new AddressSection(page);
+    }
+
+    public OrderConfirmationPage enterOrderDetails() {
+        return personalInformation
+                .enterPersonalInfo()
+                .fillAddress()
+                .selectMyCarrierDelivery()
+                .placeOrder();
     }
 }

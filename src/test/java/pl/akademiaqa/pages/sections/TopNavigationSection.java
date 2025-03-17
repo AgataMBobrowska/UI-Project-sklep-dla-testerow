@@ -2,8 +2,10 @@ package pl.akademiaqa.pages.sections;
 
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
+import lombok.Getter;
 import pl.akademiaqa.pages.BasePage;
 
+@Getter
 public class TopNavigationSection extends BasePage {
 
     private Locator languageSelector;

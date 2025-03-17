@@ -7,7 +7,7 @@ import pl.akademiaqa.pages.sections.shoppingCartPage.SummarySection;
 import static pl.akademiaqa.utils.PageUtils.waitForThePageToLoad;
 
 @Getter
-public class ShoppingCartPage  extends BasePage {
+public class ShoppingCartPage extends BasePage {
 
     private SummarySection summarySection;
 
@@ -15,5 +15,9 @@ public class ShoppingCartPage  extends BasePage {
         super(page);
         waitForThePageToLoad(page);
         this.summarySection = new SummarySection(page);
+    }
+
+    public PersonalInformationPage proceedToCheckoutOnShoppingCartPage() {
+        return summarySection.proceedToCheckoutButton();
     }
 }

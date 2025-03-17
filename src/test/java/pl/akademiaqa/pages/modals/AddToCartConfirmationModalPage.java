@@ -26,7 +26,7 @@ public class AddToCartConfirmationModalPage extends BasePage {
         return confirmationLabel.innerText();
     }
 
-    public ShoppingCartPage clickProceedToCheckoutButton() {
+    public ShoppingCartPage clickProceedToCheckoutButtonOnModal() {
         proceedToCheckoutButton.click();
         return new ShoppingCartPage(page);
     }
