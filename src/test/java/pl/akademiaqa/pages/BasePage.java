@@ -2,8 +2,8 @@ package pl.akademiaqa.pages;
 
 import com.microsoft.playwright.Page;
 import lombok.Getter;
-import pl.akademiaqa.pages.sections.TopMenuSearchSection;
-import pl.akademiaqa.pages.sections.TopNavigationSection;
+import pl.akademiaqa.pages.common.TopMenuSearchSection;
+import pl.akademiaqa.pages.common.TopNavigationSection;
 
 public class BasePage {
 
@@ -21,8 +21,8 @@ public class BasePage {
         this.topNavigationSection = new TopNavigationSection(page);
     }
 
-    public SearchResultPage searchForProduct (String productName) {
-        return topMenuSearchSection.searchForProducts(productName);
+    public SearchResultPage searchForProducts (String productName) {
+        return topMenuSearchSection.searchForProduct(productName);
     }
 
     public void setPageLanguageToEn() {

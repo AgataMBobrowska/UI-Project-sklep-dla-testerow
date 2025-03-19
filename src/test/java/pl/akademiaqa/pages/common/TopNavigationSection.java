@@ -1,12 +1,11 @@
-package pl.akademiaqa.pages.sections;
+package pl.akademiaqa.pages.common;
 
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 import lombok.Getter;
-import pl.akademiaqa.pages.BasePage;
 
 @Getter
-public class TopNavigationSection extends BasePage {
+public class TopNavigationSection {
 
     private Locator languageSelector;
 
@@ -15,7 +14,6 @@ public class TopNavigationSection extends BasePage {
     private Locator selectedLanguage;
 
     public TopNavigationSection(Page page) {
-        super(page);
         this.languageSelector = page.locator(".language-selector");
         this.english = page.locator("a[data-iso-code=en]");
         this.selectedLanguage = page.locator("span[class=expand-more]");

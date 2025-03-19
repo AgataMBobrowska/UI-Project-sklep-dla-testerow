@@ -1,16 +1,10 @@
 package pl.akademiaqa.tests;
 
-import org.assertj.core.api.Assert;
-import org.assertj.core.api.Assertions;
-import org.assertj.core.api.MatcherAssert;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.aggregator.AggregateWith;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.junit.jupiter.params.provider.ValueSource;
 import pl.akademiaqa.pages.HomePage;
 import pl.akademiaqa.pages.SearchResultPage;
 import pl.akademiaqa.utils.Properties;
@@ -33,7 +27,7 @@ public class SearchTest extends BaseTest {
     @ParameterizedTest(name = "Search for {0} should return {1} products")
     @MethodSource("searchData")
     void should_return_products_by_product_name(String productName, int productCounter) {
-        SearchResultPage searchResultPage = homePage.getTopMenuSearchSection().searchForProducts(productName);
+        SearchResultPage searchResultPage = homePage.getTopMenuSearchSection().searchForProduct(productName);
         assertThat(searchResultPage.getSearchResultSection().getProducts().size()).isEqualTo(productCounter);
     }
 
