@@ -5,31 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="134a8de0-9663-4451-b336-85c6726be7b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/akademiaqa/dto/AddressDetailsDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/junit-platform.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/apitesting/RequestResponseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/fasady/OrderProductFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/fasady/OrderProductFacade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/PersonalInformationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/PersonalInformationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/peronalInformationPage/AddressSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/peronalInformationPage/AddressSection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/products/ProductsSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/sections/products/ProductsSection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/tests/PurchaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/tests/PurchaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-pl.akademiaqa.tests.FilterByCompositionTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-pl.akademiaqa.tests.FilterByCompositionTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-pl.akademiaqa.tests.FilterByPriceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-pl.akademiaqa.tests.FilterByPriceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-pl.akademiaqa.tests.PurchaseTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-pl.akademiaqa.tests.PurchaseTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-pl.akademiaqa.tests.SearchTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-pl.akademiaqa.tests.SearchTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/pl.akademiaqa.tests.FilterByCompositionTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/pl.akademiaqa.tests.FilterByCompositionTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/pl.akademiaqa.tests.FilterByPriceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/pl.akademiaqa.tests.FilterByPriceTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/pl.akademiaqa.tests.PurchaseTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/pl.akademiaqa.tests.PurchaseTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/pl.akademiaqa.tests.SearchTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/pl.akademiaqa.tests.SearchTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/pages/sections/products/FilterBySection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/pages/sections/products/FilterBySection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/pages/sections/products/ProductsSection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/pages/sections/products/ProductsSection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/pages/sections/searchResultsPage/SearchResultSection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/pages/sections/searchResultsPage/SearchResultSection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/tests/FilterByPriceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/tests/FilterByPriceTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/tests/PurchaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/tests/PurchaseTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,113 +41,122 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.FilterByCompositionTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FilterByCompositionTest.should_return_matt_paper_products.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FilterByPriceTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FilterByPriceTest.should_return_products_with_price_greater_than_40.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FilterByPriceTest.should_return_products_with_price_greater_than_40_by_cursor.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FilterByPriceTest.should_return_products_with_price_greater_than_40_by_keyboard.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FilterByPriceTest.should_return_products_with_price_greater_than_40_by_url.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.PurchaseTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PurchaseTest.should_purchase_product_test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PurchaseTest.should_purchase_product_test_v2.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PurchaseTest.should_purchase_product_test_version1.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PurchaseTest.should_purchase_product_test_version2.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SearchTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SearchTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SearchTest.should_return_products_by_product_name (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SearchTest.should_return_products_by_product_name.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SearchTest.should_return_products_by_search_name_frame.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SearchTest.should_return_products_by_search_name_mug.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SearchTest.should_return_products_by_search_name_tshirt.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Fast_playwright_demo [install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.FilterByCompositionTest.executor": "Run",
+    "JUnit.FilterByCompositionTest.should_return_matt_paper_products.executor": "Run",
+    "JUnit.FilterByPriceTest.executor": "Run",
+    "JUnit.FilterByPriceTest.should_return_products_with_price_greater_than_40.executor": "Run",
+    "JUnit.FilterByPriceTest.should_return_products_with_price_greater_than_40_by_cursor.executor": "Run",
+    "JUnit.FilterByPriceTest.should_return_products_with_price_greater_than_40_by_keyboard.executor": "Run",
+    "JUnit.FilterByPriceTest.should_return_products_with_price_greater_than_40_by_url.executor": "Debug",
+    "JUnit.PurchaseTest.executor": "Run",
+    "JUnit.PurchaseTest.should_purchase_product_test.executor": "Run",
+    "JUnit.PurchaseTest.should_purchase_product_test_v2.executor": "Run",
+    "JUnit.PurchaseTest.should_purchase_product_test_version1.executor": "Run",
+    "JUnit.PurchaseTest.should_purchase_product_test_version2.executor": "Run",
+    "JUnit.RequestResponseTest.executor": "Run",
+    "JUnit.RequestResponseTest.http_handlers_test.executor": "Run",
+    "JUnit.RequestResponseTest.should_return_redirects_in_status_code_200_v2.executor": "Run",
+    "JUnit.RequestResponseTest.should_return_request_method_get_test.executor": "Run",
+    "JUnit.RequestResponseTest.should_return_status_code_200.executor": "Run",
+    "JUnit.RequestResponseTest.should_return_status_code_200_v2.executor": "Run",
+    "JUnit.SearchTest (1).executor": "Run",
+    "JUnit.SearchTest.executor": "Run",
+    "JUnit.SearchTest.should_return_products_by_product_name (1).executor": "Run",
+    "JUnit.SearchTest.should_return_products_by_product_name.executor": "Run",
+    "JUnit.SearchTest.should_return_products_by_search_name_frame.executor": "Run",
+    "JUnit.SearchTest.should_return_products_by_search_name_mug.executor": "Run",
+    "JUnit.SearchTest.should_return_products_by_search_name_tshirt.executor": "Run",
+    "Maven.Fast_playwright_demo [install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.PurchaseTest.should_purchase_product_test_v2">
-    <configuration name="FilterByCompositionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="JUnit.RequestResponseTest.should_return_only_status_code_200">
+    <configuration name="RequestResponseTest.http_handlers_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fast_playwright_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.akademiaqa.tests.*" />
+          <option name="PATTERN" value="pl.akademiaqa.apitesting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.akademiaqa.tests" />
-      <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.tests.FilterByCompositionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FilterByPriceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fast_playwright_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.akademiaqa.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.akademiaqa.tests" />
-      <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.tests.FilterByPriceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PurchaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fast_playwright_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.akademiaqa.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.akademiaqa.tests" />
-      <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.tests.PurchaseTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PurchaseTest.should_purchase_product_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fast_playwright_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.akademiaqa.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.akademiaqa.tests" />
-      <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.tests.PurchaseTest" />
-      <option name="METHOD_NAME" value="should_purchase_product_test" />
+      <option name="PACKAGE_NAME" value="pl.akademiaqa.apitesting" />
+      <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.apitesting.RequestResponseTest" />
+      <option name="METHOD_NAME" value="http_handlers_test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PurchaseTest.should_purchase_product_test_v2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RequestResponseTest.should_return_only_status_code_200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fast_playwright_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.akademiaqa.tests.*" />
+          <option name="PATTERN" value="pl.akademiaqa.apitesting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.akademiaqa.tests" />
-      <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.tests.PurchaseTest" />
-      <option name="METHOD_NAME" value="should_purchase_product_test_v2" />
+      <option name="PACKAGE_NAME" value="pl.akademiaqa.apitesting" />
+      <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.apitesting.RequestResponseTest" />
+      <option name="METHOD_NAME" value="should_return_only_status_code_200" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RequestResponseTest.should_return_redirects_in_status_code_200_v2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fast_playwright_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.akademiaqa.apitesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.akademiaqa.apitesting" />
+      <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.apitesting.RequestResponseTest" />
+      <option name="METHOD_NAME" value="should_return_redirects_in_status_code_200_v2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RequestResponseTest.should_return_request_method_get_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fast_playwright_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.akademiaqa.apitesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.akademiaqa.apitesting" />
+      <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.apitesting.RequestResponseTest" />
+      <option name="METHOD_NAME" value="should_return_request_method_get_test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RequestResponseTest.should_return_status_code_200_v2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fast_playwright_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.akademiaqa.apitesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.akademiaqa.apitesting" />
+      <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.apitesting.RequestResponseTest" />
+      <option name="METHOD_NAME" value="should_return_status_code_200_v2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -186,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PurchaseTest.should_purchase_product_test_v2" />
-        <item itemvalue="JUnit.PurchaseTest" />
-        <item itemvalue="JUnit.PurchaseTest.should_purchase_product_test" />
-        <item itemvalue="JUnit.FilterByCompositionTest" />
-        <item itemvalue="JUnit.FilterByPriceTest" />
+        <item itemvalue="JUnit.RequestResponseTest.should_return_only_status_code_200" />
+        <item itemvalue="JUnit.RequestResponseTest.should_return_redirects_in_status_code_200_v2" />
+        <item itemvalue="JUnit.RequestResponseTest.should_return_status_code_200_v2" />
+        <item itemvalue="JUnit.RequestResponseTest.http_handlers_test" />
+        <item itemvalue="JUnit.RequestResponseTest.should_return_request_method_get_test" />
       </list>
     </recent_temporary>
   </component>

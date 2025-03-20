@@ -30,7 +30,7 @@ PurchaseTest extends BaseTest {
         addProductToCartFacade = new AddProductToCartFacade(homePage);
         orderProductFacade = new OrderProductFacade();
     }
-    
+
     @Test
     void should_purchase_product_test_v2() {
         AddToCartConfirmationModalPage confirmationModal = addProductToCartFacade.addCustomizedProductToCart(productName);
