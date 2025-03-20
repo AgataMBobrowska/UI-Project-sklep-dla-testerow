@@ -3,7 +3,6 @@ package pl.akademiaqa.pages.sections.products;
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 import pl.akademiaqa.pages.BasePage;
-import pl.akademiaqa.utils.StringUtils;
 
 import java.util.List;
 import java.util.stream.Collectors;

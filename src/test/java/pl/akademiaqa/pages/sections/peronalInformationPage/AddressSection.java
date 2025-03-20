@@ -2,7 +2,10 @@ package pl.akademiaqa.pages.sections.peronalInformationPage;
 
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
+import pl.akademiaqa.dto.AddressDetailsDTO;
 import pl.akademiaqa.pages.BasePage;
+
+import java.util.List;
 
 public class AddressSection extends BasePage {
 
@@ -24,10 +27,10 @@ public class AddressSection extends BasePage {
         this.continueButton = page.locator(addressSection + "button[name='confirm-addresses']");
     }
 
-    public ShippingSection fillAddress() {
-        addressInput.fill("Ulica Długa 123");
-        zipCodeInput.fill("12-345");
-        cityInput.fill("Piotrowo");
+    public ShippingSection fillAddress(AddressDetailsDTO addressDetails) {
+        addressInput.fill(addressDetails.getAddressInput());
+        zipCodeInput.fill(addressDetails.getZipCodeInput());
+        cityInput.fill(addressDetails.getCityInput());
         continueButton.click();
 
         return new ShippingSection(page);

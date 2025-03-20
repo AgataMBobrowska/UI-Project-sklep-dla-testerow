@@ -2,6 +2,7 @@ package pl.akademiaqa.pages;
 
 import com.microsoft.playwright.Page;
 import lombok.Getter;
+import pl.akademiaqa.dto.AddressDetailsDTO;
 import pl.akademiaqa.pages.sections.peronalInformationPage.AddressSection;
 import pl.akademiaqa.pages.sections.peronalInformationPage.PersonalInformationSection;
 import pl.akademiaqa.utils.PageUtils;
@@ -20,10 +21,10 @@ public class PersonalInformationPage extends BasePage {
         this.addressSection = new AddressSection(page);
     }
 
-    public OrderConfirmationPage enterOrderDetails() {
+    public OrderConfirmationPage enterOrderDetails(AddressDetailsDTO addressDetails) {
         return personalInformation
                 .enterPersonalInfo()
-                .fillAddress()
+                .fillAddress(addressDetails)
                 .selectMyCarrierDelivery()
                 .placeOrder();
     }
