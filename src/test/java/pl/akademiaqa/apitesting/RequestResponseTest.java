@@ -26,7 +26,6 @@ public class RequestResponseTest extends BaseTest {
 
         //URL
         System.out.println(response.url());
-
         Assertions.assertThat(response.ok()).isTrue();
     }
 

@@ -1,4 +1,4 @@
-package pl.akademiaqa.fasady;
+package pl.akademiaqa.facades;
 
 import pl.akademiaqa.pages.HomePage;
 import pl.akademiaqa.pages.modals.AddToCartConfirmationModalPage;
@@ -16,7 +16,7 @@ public class AddProductToCartFacade {
         return homePage
                 .searchForProducts(productName)
                 .viewProductDetails(productName)
-                .setCustomMessage("Customizable Mug")
+                .setCustomMessage(productName)
                 .addProductToCart();
     }
 
@@ -27,4 +27,3 @@ public class AddProductToCartFacade {
                 .addProductToCart();
     }
 }
-

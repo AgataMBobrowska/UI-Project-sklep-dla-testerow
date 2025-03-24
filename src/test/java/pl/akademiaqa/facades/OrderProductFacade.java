@@ -1,4 +1,4 @@
-package pl.akademiaqa.fasady;
+package pl.akademiaqa.facades;
 
 import pl.akademiaqa.dto.AddressDetailsDTO;
 import pl.akademiaqa.pages.OrderConfirmationPage;
