@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="134a8de0-9663-4451-b336-85c6726be7b1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/apitesting/ReadSingleUserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/apitesting/RequestResponseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/apitesting/RequestResponseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/fasady/AddProductToCartFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/facades/AddProductToCartFacade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/fasady/OrderProductFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/facades/OrderProductFacade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/tests/PurchaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/tests/PurchaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +80,23 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.RequestResponseTest.should_return_only_status_code_200">
+  <component name="RunManager" selected="JUnit.ReadSingleUserTest.should_return_single_user_response_test">
+    <configuration name="ReadSingleUserTest.should_return_single_user_response_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fast_playwright_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.akademiaqa.apitesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.akademiaqa.apitesting" />
+      <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.apitesting.ReadSingleUserTest" />
+      <option name="METHOD_NAME" value="should_return_single_user_response_test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RequestResponseTest.http_handlers_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fast_playwright_demo" />
       <extension name="coverage">
@@ -132,22 +145,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RequestResponseTest.should_return_request_method_get_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fast_playwright_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.akademiaqa.apitesting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.akademiaqa.apitesting" />
-      <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.apitesting.RequestResponseTest" />
-      <option name="METHOD_NAME" value="should_return_request_method_get_test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RequestResponseTest.should_return_status_code_200_v2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fast_playwright_demo" />
       <extension name="coverage">
@@ -175,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ReadSingleUserTest.should_return_single_user_response_test" />
         <item itemvalue="JUnit.RequestResponseTest.should_return_only_status_code_200" />
         <item itemvalue="JUnit.RequestResponseTest.should_return_redirects_in_status_code_200_v2" />
         <item itemvalue="JUnit.RequestResponseTest.should_return_status_code_200_v2" />
         <item itemvalue="JUnit.RequestResponseTest.http_handlers_test" />
-        <item itemvalue="JUnit.RequestResponseTest.should_return_request_method_get_test" />
       </list>
     </recent_temporary>
   </component>
