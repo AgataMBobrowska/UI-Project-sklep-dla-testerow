@@ -1,5 +1,7 @@
 package pl.akademiaqa.apitesting;
 
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.microsoft.playwright.APIRequest;
@@ -10,6 +12,7 @@ import com.microsoft.playwright.assertions.PlaywrightAssertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.Map;
@@ -56,5 +59,17 @@ public class ReadSingleUserTest {
         System.out.println(jsonResponse);
         System.out.println(jsonResponse.get("name"));
         System.out.println(jsonResponse.get("email"));
+    }
+
+    @Test
+    void should_return_single_user_jackson_test() throws IOException {
+        APIResponse response = apiContext.get("users/10");
+        PlaywrightAssertions.assertThat(response).isOK();
+
+        ObjectMapper mapper = new ObjectMapper();
+        JsonNode jsonNode = mapper.readTree(response.text());
+
+        System.out.println(jsonNode.toPrettyString());
+        System.out.println(jsonNode.get("name"));
     }
 }
