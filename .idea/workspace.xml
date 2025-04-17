@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="134a8de0-9663-4451-b336-85c6726be7b1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/apitesting/ReadAllUsersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/apitesting/response/GetUserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/common/BaseApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/apitesting/ReadSingleUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/apitesting/ReadSingleUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/apitesting/ReadSingleUserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/apitesting/ReadSingleUserTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +52,11 @@
     "JUnit.PurchaseTest.should_purchase_product_test_v2.executor": "Run",
     "JUnit.PurchaseTest.should_purchase_product_test_version1.executor": "Run",
     "JUnit.PurchaseTest.should_purchase_product_test_version2.executor": "Run",
+    "JUnit.ReadAllUsersTest.executor": "Run",
     "JUnit.ReadSingleUserTest.executor": "Run",
+    "JUnit.ReadSingleUserTest.should_return_single_user_dto_test.executor": "Run",
     "JUnit.ReadSingleUserTest.should_return_single_user_gson_test.executor": "Run",
+    "JUnit.ReadSingleUserTest.should_return_single_user_jackson_test.executor": "Run",
     "JUnit.ReadSingleUserTest.should_return_single_user_response_test.executor": "Run",
     "JUnit.RequestResponseTest.executor": "Run",
     "JUnit.RequestResponseTest.http_handlers_test.executor": "Run",
@@ -77,23 +85,23 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ReadSingleUserTest.should_return_single_user_jackson_test">
-    <configuration name="PurchaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ReadAllUsersTest">
+    <configuration name="ReadAllUsersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fast_playwright_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.akademiaqa.tests.*" />
+          <option name="PATTERN" value="pl.akademiaqa.apitesting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.akademiaqa.tests" />
-      <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.tests.PurchaseTest" />
+      <option name="PACKAGE_NAME" value="pl.akademiaqa.apitesting" />
+      <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.apitesting.ReadAllUsersTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadSingleUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReadSingleUserTest.should_return_single_user_dto_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fast_playwright_demo" />
       <extension name="coverage">
         <pattern>
@@ -103,7 +111,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="pl.akademiaqa.apitesting" />
       <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.apitesting.ReadSingleUserTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="should_return_single_user_dto_test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -167,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ReadAllUsersTest" />
+        <item itemvalue="JUnit.ReadSingleUserTest.should_return_single_user_dto_test" />
         <item itemvalue="JUnit.ReadSingleUserTest.should_return_single_user_jackson_test" />
         <item itemvalue="JUnit.ReadSingleUserTest.should_return_single_user_gson_test" />
         <item itemvalue="JUnit.ReadSingleUserTest.should_return_single_user_response_test" />
-        <item itemvalue="JUnit.ReadSingleUserTest" />
-        <item itemvalue="JUnit.PurchaseTest" />
       </list>
     </recent_temporary>
   </component>

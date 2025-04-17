@@ -11,13 +11,15 @@ import com.microsoft.playwright.Playwright;
 import com.microsoft.playwright.assertions.PlaywrightAssertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import pl.akademiaqa.apitesting.response.GetUserResponse;
+import pl.akademiaqa.pages.common.BaseApiTest;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ReadSingleUserTest {
+class ReadSingleUserTest extends BaseApiTest {
 
     Playwright playwright;
 
@@ -68,8 +70,18 @@ public class ReadSingleUserTest {
 
         ObjectMapper mapper = new ObjectMapper();
         JsonNode jsonNode = mapper.readTree(response.text());
-
         System.out.println(jsonNode.toPrettyString());
         System.out.println(jsonNode.get("name"));
+    }
+
+    //deserializacja
+    @Test
+    void should_return_single_user_dto_test(){
+        APIResponse response = apiContext.get("users/10");
+        PlaywrightAssertions.assertThat(response).isOK();
+
+        GetUserResponse getUserResponse = new Gson().fromJson(response.text(), GetUserResponse.class);
+        System.out.println(getUserResponse);
+
     }
 }
