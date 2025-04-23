@@ -7,14 +7,13 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.TestInstance;
-import org.junit.jupiter.params.shadow.com.univocity.parsers.annotations.Headers;
-
 import java.util.HashMap;
 import java.util.Map;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class BaseApiTest {
 
+    protected static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(BaseApiTest.class);
     private Playwright playwright;
     private APIRequest request;
     protected APIRequestContext context;
