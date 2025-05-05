@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="134a8de0-9663-4451-b336-85c6726be7b1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/apitesting/CreateUserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/apitesting/ReadAllUsersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/apitesting/ReadAllUsersTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/common/BaseApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/pages/common/BaseApiTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/apitesting/ReadAllUsersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/apitesting/ReadAllUsersTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/pages/common/BaseApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/pages/common/BaseApiTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,56 +36,58 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.FilterByCompositionTest.executor": "Run",
-    "JUnit.FilterByCompositionTest.should_return_matt_paper_products.executor": "Run",
-    "JUnit.FilterByPriceTest.executor": "Run",
-    "JUnit.FilterByPriceTest.should_return_products_with_price_greater_than_40.executor": "Run",
-    "JUnit.FilterByPriceTest.should_return_products_with_price_greater_than_40_by_cursor.executor": "Run",
-    "JUnit.FilterByPriceTest.should_return_products_with_price_greater_than_40_by_keyboard.executor": "Run",
-    "JUnit.FilterByPriceTest.should_return_products_with_price_greater_than_40_by_url.executor": "Debug",
-    "JUnit.PurchaseTest.executor": "Run",
-    "JUnit.PurchaseTest.should_purchase_product_test.executor": "Run",
-    "JUnit.PurchaseTest.should_purchase_product_test_v2.executor": "Run",
-    "JUnit.PurchaseTest.should_purchase_product_test_version1.executor": "Run",
-    "JUnit.PurchaseTest.should_purchase_product_test_version2.executor": "Run",
-    "JUnit.ReadAllUsersTest.executor": "Run",
-    "JUnit.ReadAllUsersTest.should_return_list_of_users.executor": "Run",
-    "JUnit.ReadSingleUserTest.executor": "Run",
-    "JUnit.ReadSingleUserTest.should_return_single_user_dto_test.executor": "Run",
-    "JUnit.ReadSingleUserTest.should_return_single_user_gson_test.executor": "Run",
-    "JUnit.ReadSingleUserTest.should_return_single_user_jackson_test.executor": "Run",
-    "JUnit.ReadSingleUserTest.should_return_single_user_response_test.executor": "Run",
-    "JUnit.RequestResponseTest.executor": "Run",
-    "JUnit.RequestResponseTest.http_handlers_test.executor": "Run",
-    "JUnit.RequestResponseTest.should_return_only_status_code_200.executor": "Run",
-    "JUnit.RequestResponseTest.should_return_redirects_in_status_code_200_v2.executor": "Run",
-    "JUnit.RequestResponseTest.should_return_request_method_get_test.executor": "Run",
-    "JUnit.RequestResponseTest.should_return_status_code_200.executor": "Run",
-    "JUnit.RequestResponseTest.should_return_status_code_200_v2.executor": "Run",
-    "JUnit.SearchTest (1).executor": "Run",
-    "JUnit.SearchTest.executor": "Run",
-    "JUnit.SearchTest.should_return_products_by_product_name (1).executor": "Run",
-    "JUnit.SearchTest.should_return_products_by_product_name.executor": "Run",
-    "JUnit.SearchTest.should_return_products_by_search_name_frame.executor": "Run",
-    "JUnit.SearchTest.should_return_products_by_search_name_mug.executor": "Run",
-    "JUnit.SearchTest.should_return_products_by_search_name_tshirt.executor": "Run",
-    "Maven.Fast_playwright_demo [install].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.FilterByCompositionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FilterByCompositionTest.should_return_matt_paper_products.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FilterByPriceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FilterByPriceTest.should_return_products_with_price_greater_than_40.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FilterByPriceTest.should_return_products_with_price_greater_than_40_by_cursor.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FilterByPriceTest.should_return_products_with_price_greater_than_40_by_keyboard.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FilterByPriceTest.should_return_products_with_price_greater_than_40_by_url.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.PurchaseTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PurchaseTest.should_purchase_product_test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PurchaseTest.should_purchase_product_test_v2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PurchaseTest.should_purchase_product_test_version1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PurchaseTest.should_purchase_product_test_version2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReadAllUsersTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReadAllUsersTest.should_return_list_of_users.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReadAllUsersTest.should_return_list_of_users_dto.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReadAllUsersTest.should_return_list_of_users_jackson_test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReadSingleUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReadSingleUserTest.should_return_single_user_dto_test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReadSingleUserTest.should_return_single_user_gson_test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReadSingleUserTest.should_return_single_user_jackson_test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReadSingleUserTest.should_return_single_user_response_test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RequestResponseTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RequestResponseTest.http_handlers_test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RequestResponseTest.should_return_only_status_code_200.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RequestResponseTest.should_return_redirects_in_status_code_200_v2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RequestResponseTest.should_return_request_method_get_test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RequestResponseTest.should_return_status_code_200.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RequestResponseTest.should_return_status_code_200_v2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SearchTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SearchTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SearchTest.should_return_products_by_product_name (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SearchTest.should_return_products_by_product_name.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SearchTest.should_return_products_by_search_name_frame.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SearchTest.should_return_products_by_search_name_mug.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SearchTest.should_return_products_by_search_name_tshirt.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Fast_playwright_demo [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.ReadAllUsersTest.should_return_list_of_users_jackson_test">
-    <configuration name="ReadAllUsersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="JUnit.CreateUserTest">
+    <configuration name="CreateUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fast_playwright_demo" />
       <extension name="coverage">
         <pattern>
@@ -95,7 +96,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pl.akademiaqa.apitesting" />
-      <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.apitesting.ReadAllUsersTest" />
+      <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.apitesting.CreateUserTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,6 +134,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReadAllUsersTest.should_return_list_of_users_dto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fast_playwright_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.akademiaqa.apitesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.akademiaqa.apitesting" />
+      <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.apitesting.ReadAllUsersTest" />
+      <option name="METHOD_NAME" value="should_return_list_of_users_dto" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReadAllUsersTest.should_return_list_of_users_jackson_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fast_playwright_demo" />
       <extension name="coverage">
@@ -149,22 +166,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadSingleUserTest.should_return_single_user_dto_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fast_playwright_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.akademiaqa.apitesting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.akademiaqa.apitesting" />
-      <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.apitesting.ReadSingleUserTest" />
-      <option name="METHOD_NAME" value="should_return_single_user_dto_test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -176,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ReadAllUsersTest.should_return_list_of_users_jackson_test" />
+        <item itemvalue="JUnit.CreateUserTest" />
         <item itemvalue="JUnit.ReadAllUsersTest.should_return_list_of_users" />
+        <item itemvalue="JUnit.ReadAllUsersTest.should_return_list_of_users_dto" />
+        <item itemvalue="JUnit.ReadAllUsersTest.should_return_list_of_users_jackson_test" />
         <item itemvalue="JUnit.ReadAllUsersTest.should_return_all_users" />
-        <item itemvalue="JUnit.ReadAllUsersTest" />
-        <item itemvalue="JUnit.ReadSingleUserTest.should_return_single_user_dto_test" />
       </list>
     </recent_temporary>
   </component>
