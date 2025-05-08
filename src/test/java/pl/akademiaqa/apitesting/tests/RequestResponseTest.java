@@ -1,4 +1,4 @@
-package pl.akademiaqa.apitesting;
+package pl.akademiaqa.apitesting.tests;
 
 import com.microsoft.playwright.Response;
 import org.assertj.core.api.Assertions;

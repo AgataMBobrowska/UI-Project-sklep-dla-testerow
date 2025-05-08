@@ -1,10 +1,11 @@
-package pl.akademiaqa.apitesting;
+package pl.akademiaqa.apitesting.tests;
 
 import com.google.gson.JsonObject;
 import com.microsoft.playwright.APIResponse;
 import com.microsoft.playwright.assertions.PlaywrightAssertions;
 import com.microsoft.playwright.options.RequestOptions;
 import org.junit.jupiter.api.Test;
+import pl.akademiaqa.apitesting.payload.CreateUserPayload;
 import pl.akademiaqa.pages.common.BaseApiTest;
 
 import java.io.IOException;
@@ -133,6 +134,7 @@ class CreateUserTest extends BaseApiTest {
     @Test
     void should_create_new_user_from_dto_payload_test() {
 
+        CreateUserPayload user = CreateUserPayload.createDefaultPayload();
 
         //serializacja - obiekt na json
         APIResponse users = context.post("users", RequestOptions.create().setData(user));

@@ -1,4 +1,4 @@
-package pl.akademiaqa.apitesting;
+package pl.akademiaqa.apitesting.tests;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;

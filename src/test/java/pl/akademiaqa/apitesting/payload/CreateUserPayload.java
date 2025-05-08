@@ -19,6 +19,23 @@ public class CreateUserPayload {
 
     private String email;
 
+    private CreateUserAddressPayload address;
 
+    private String phone;
 
+    private String website;
+
+    private CreateUserCompanyPayload company;
+
+    public static CreateUserPayload createDefaultPayload() {
+        return CreateUserPayload.builder()
+                .name("Json Dto")
+                .userName("Json Dto")
+                .email("jsondto@email.com")
+                .address(CreateUserAddressPayload.createDefaultUserAddressPayload())
+                .phone("123-456-789")
+                .website("jsondto.com")
+                .company(CreateUserCompanyPayload.createDefaultUserCompanyPayload())
+                .build();
+    }
 }
