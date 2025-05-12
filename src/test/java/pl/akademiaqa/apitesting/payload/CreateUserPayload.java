@@ -30,7 +30,7 @@ public class CreateUserPayload {
     public static CreateUserPayload createDefaultPayload() {
         return CreateUserPayload.builder()
                 .name("Json Dto")
-                .userName("Json Dto")
+                .userName("json.dto")
                 .email("jsondto@email.com")
                 .address(CreateUserAddressPayload.createDefaultUserAddressPayload())
                 .phone("123-456-789")
