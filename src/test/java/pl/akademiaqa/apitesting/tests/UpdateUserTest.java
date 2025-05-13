@@ -1,15 +1,14 @@
 package pl.akademiaqa.apitesting.tests;
 
-import com.google.gson.Gson;
 import com.microsoft.playwright.APIResponse;
 import com.microsoft.playwright.options.RequestOptions;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
-import pl.akademiaqa.apitesting.assertions.StatusCodeAssertions;
 import pl.akademiaqa.apitesting.facades.CreateUserApiFacade;
 import pl.akademiaqa.apitesting.payload.CreateUserPayload;
 import pl.akademiaqa.apitesting.response.CreateUpdateUserResponse;
 import pl.akademiaqa.apitesting.response.GetUserResponse;
+import pl.akademiaqa.apitesting.transformers.UserTransformers;
 import pl.akademiaqa.pages.common.BaseApiTest;
 
 import static pl.akademiaqa.apitesting.assertions.StatusCodeAssertions.assert200;
@@ -27,7 +26,7 @@ class UpdateUserTest extends BaseApiTest {
         APIResponse updateUserResponse = context.put("users/" + createUserDTO.getId(), RequestOptions.create().setData(user));
         assert200(updateUserResponse);
 
-        CreateUpdateUserResponse updateUserResponseDTO = new Gson().fromJson(updateUserResponse.text(), CreateUpdateUserResponse.class);
+        CreateUpdateUserResponse updateUserResponseDTO = UserTransformers.createUpdateUserResponseDTO(updateUserResponse);
         Assertions.assertThat(updateUserResponseDTO.getEmail()).isEqualTo("agata@test.pl");
         log.info("Updated user: " + updateUserResponseDTO);
 
@@ -35,7 +34,7 @@ class UpdateUserTest extends BaseApiTest {
         APIResponse apiResponse = context.get("users/" + createUserDTO.getId());
         assert200(apiResponse);
 
-        GetUserResponse getUserResponseDTO = new Gson().fromJson(apiResponse.text(), GetUserResponse.class);
+        GetUserResponse getUserResponseDTO = UserTransformers.readUserToResponseDTO(apiResponse);
         Assertions.assertThat(getUserResponseDTO.getEmail()).isEqualTo("agata@test.pl");
         log.info("Read user: " + updateUserResponseDTO);
 
