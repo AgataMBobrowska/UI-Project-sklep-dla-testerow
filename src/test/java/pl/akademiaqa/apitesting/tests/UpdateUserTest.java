@@ -37,6 +37,5 @@ class UpdateUserTest extends BaseApiTest {
         GetUserResponse getUserResponseDTO = UserTransformers.readUserToResponseDTO(apiResponse);
         Assertions.assertThat(getUserResponseDTO.getEmail()).isEqualTo("agata@test.pl");
         log.info("Read user: " + updateUserResponseDTO);
-
     }
 }

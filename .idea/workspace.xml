@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="134a8de0-9663-4451-b336-85c6726be7b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/apitesting/tests/PartialUpdateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/apitesting/transformers/UserTransformers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/apitesting/tests/DeleteUserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/apitesting/tests/UpdateUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/akademiaqa/apitesting/tests/UpdateUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/apitesting/tests/UpdateUserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/akademiaqa/apitesting/tests/UpdateUserTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +43,7 @@
     "JUnit.CreateUserTest.should_create_new_user_from_file_payload_test.executor": "Run",
     "JUnit.CreateUserTest.should_create_new_user_from_json_object_payload_test.executor": "Run",
     "JUnit.CreateUserTest.should_create_new_user_from_map_payload_test.executor": "Run",
+    "JUnit.DeleteUserTest.executor": "Run",
     "JUnit.FilterByCompositionTest.executor": "Run",
     "JUnit.FilterByCompositionTest.should_return_matt_paper_products.executor": "Run",
     "JUnit.FilterByPriceTest.executor": "Run",
@@ -93,7 +94,7 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.UpdateUserTest.should_update_entire_user_test">
+  <component name="RunManager" selected="JUnit.UpdateUserTest">
     <configuration name="CreateUserTest.should_create_new_user_from_dto_payload_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fast_playwright_demo" />
       <extension name="coverage">
@@ -126,7 +127,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateUserTest.should_create_new_user_from_json_object_payload_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DeleteUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fast_playwright_demo" />
       <extension name="coverage">
         <pattern>
@@ -135,9 +136,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pl.akademiaqa.apitesting.tests" />
-      <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.apitesting.tests.CreateUserTest" />
-      <option name="METHOD_NAME" value="should_create_new_user_from_json_object_payload_test" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="pl.akademiaqa.apitesting.tests.DeleteUserTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -184,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UpdateUserTest.should_update_entire_user_test" />
         <item itemvalue="JUnit.UpdateUserTest" />
+        <item itemvalue="JUnit.DeleteUserTest" />
+        <item itemvalue="JUnit.UpdateUserTest.should_update_entire_user_test" />
         <item itemvalue="JUnit.CreateUserTest.should_create_new_user_from_dto_payload_test" />
         <item itemvalue="JUnit.CreateUserTest.should_create_new_user_from_file_payload_test" />
-        <item itemvalue="JUnit.CreateUserTest.should_create_new_user_from_json_object_payload_test" />
       </list>
     </recent_temporary>
   </component>
@@ -221,11 +221,6 @@
           <properties class="java.lang.StackOverflowError" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/pl/akademiaqa/apitesting/assertions/StatusCodeAssertions.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
